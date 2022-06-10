@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.anchor {
+  display: block;
+  visibility: hidden;
+  height: 80px;
+  margin-top: -80px;
+}
+
+
+/* Project overlay */
+
+.project-text {
+  cursor: pointer;
+
+}
+
+.project-img {
+  height: 600px;
+  border-radius: 5%;
+  width: 100%;
+}
+
+@media (hover : hover) {
+  .project-text {
+    opacity: 0;
+    transition: .5s ease-in-out;
+  }
+
+  .project-img {
+    opacity: 0.6;
+    transition: .5s ease-in-out;
+  }
+
+  .project:hover .project-img {
+    transition: 1s ease-in-out;
+    opacity: 0.25;
+    transform: scale(1.075);
+  }
+
+  .project:hover .project-text {
+    transition: 1s ease-in-out;
+    opacity: 1;
+  }
+}
+
+@media (hover : none) {
+  .project-text {
+    opacity: 1;
+  }
+
+  .project-img {
+    opacity: 0.25;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-150px * 10))
+  }
+}
+
+.slider {
+  padding-top: 15px;
+  height: 235px;
+  padding-bottom: 235px;
+  /* overflow sometimes Breaks on mobile */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-track {
+  animation: scroll 10s linear infinite;
+  display: flex;
+  width: calc(150px * 20);
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  text-align: center;
+  transition: transform 1s;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.slide:hover {
+  transform: scale(1.4);
+}
+.smoked {
+  position: relative;
+}
+
+.smoked span {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.smoked.words span.active {
+  z-index: 100;
+  animation: smokeWords 1.5s linear forwards;
+}
+
+
+@keyframes smokeWords {
+  0% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0) translateY(0) rotate(0deg) scale(1);
+  }
+  50% {
+    opacity: 0.3;
+  }
+  99.999% {
+    opacity: 0;
+    filter: blur(50px);
+    transform: translateX(-150px) translateY(-300px) rotate(-45deg) scale(3);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
