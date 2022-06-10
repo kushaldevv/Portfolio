@@ -17,7 +17,7 @@ function Project({ title, desc, imagePath, techArray, githubLink, demoLink }) {
   return (
     <Box>
       <Center className="project" overflow="hidden" backgroundColor="black" borderRadius="5%" transition="ease-in-out" position="relative" textAlign="center">
-        <Image className="project-img" src={imagePath} fallbackSrc="https://via.placeholder.com/3024x1700"></Image>
+        <Image className="project-img" src={imagePath} fallbackSrc="https://via.placeholder.com/3024x1700" alt = 'projectImage'></Image>
         <Box className="project-text" px="2vw" position="absolute" top={"30%"}>
           <Text color="white" fontWeight="bold" fontSize={["28px", "34px", "34px", "34px"]}>
             {title}
@@ -27,7 +27,7 @@ function Project({ title, desc, imagePath, techArray, githubLink, demoLink }) {
           </Text>
         </Box>
       </Center>
-      <Text pt="1vh" color="gray.500" fontSize="xl" fontWeight="medium">//Tech stack</Text>
+      <Text pt="1vh" color="gray.500" fontSize="xl" fontWeight="medium">&#47;&#47;Tech stack</Text>
       <Wrap py="2vh">
         {techArrayList}
       </Wrap>

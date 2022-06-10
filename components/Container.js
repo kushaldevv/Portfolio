@@ -25,8 +25,8 @@ const Container = () => {
       <MobileNav />
       <Box pb={["50px", "", "", ""]} height={["", "100vh", "100vh", "100vh"]}>
         <Box className="smoked words" pt={["10vh", "15vh", "18vh", "20vh"]}>
-          <Text display="inline-block" fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]}><span>Hello,</span> <span>I"m</span> <span>Kushal</span> <span>👋</span></Text>
-          <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}><br></br><span>I"m</span> <span>a</span> <span>Full</span> <span>Stack</span> <span>Software</span> <span>Engineer,</span><br></br><span>huge</span> </Text>
+          <Text display="inline-block" fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]}><span>Hello,</span> <span>I&apos;m</span> <span>Kushal</span> <span>👋</span></Text>
+          <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}><br></br><span>I&apos;m</span> <span>a</span> <span>Full</span> <span>Stack</span> <span>Software</span> <span>Engineer,</span><br></br><span>huge</span> </Text>
           <span><Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color="white" backgroundColor="green.700">Br</Text>
           <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor} >eaking&nbsp;</Text></span>
           <span><Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color="white" backgroundColor="green.700">Ba</Text>
@@ -35,7 +35,7 @@ const Container = () => {
         </Box>
       </Box>
       <span className="anchor" id="projects"></span>
-      <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;Container id = "projects"&gt;</Text>
+      <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;Container id = &apos;projects&apos;&gt;</Text>
       <VStack my="5vh" ml={["10px", "40px"]} divider={<StackDivider borderColor="green.500" />} spacing={"1vh"} align="stretch">
         <Project title="Bug Tracker - In progress" githubLink="https://www.google.com" demoLink="https://www.google.com"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
@@ -56,19 +56,19 @@ const Container = () => {
       <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;/Container&gt;</Text>
       <Box my="5vh">
         <span className="anchor" id="tools"></span>
-        <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;Container id = "tools"&gt;</Text>
+        <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;Container id = &apos;tools&apos;&gt;</Text>
         <Box mt = "3vh" ml={["10px", "40px"]}>
           <IconCarousel />
         </Box>
         <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;/Container&gt;</Text>
       </Box>
       <span className="anchor" id="contact"></span>
-      <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;Container id = "contact"&gt;</Text>
+      <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;Container id = &apos;contact&apos;&gt;</Text>
       <Wrap my = "5vh"  ml={["10px", "40px"]}>
         <WrapItem>
           <Box>
             <Text fontWeight="bold" fontSize="5xl">Get in Touch 🗣</Text>
-            <Text pt="1vh" color="gray.500" fontSize="xl" fontWeight="medium">//Socials</Text>
+            <Text pt="1vh" color="gray.500" fontSize="xl" fontWeight="medium">&#47;&#47;Socials</Text>
             <Link href="https://www.linkedin.com/in/kushal-devkota-903a49237/" isExternal>
               <IconButton size="lg" borderRadius="full" my = "5" ml = "1" aria-label="Linkedln Icon" icon={<LinkedInIcon/>} />
             </Link>
