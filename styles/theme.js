@@ -1,4 +1,4 @@
-import {theme as chakraTheme} from '@chakra-ui/react'
+import {theme as chakraTheme} from "@chakra-ui/react"
 import { extendTheme } from "@chakra-ui/react";
 import { createBreakpoints } from "@chakra-ui/theme-tools"
 
@@ -9,14 +9,14 @@ const fonts = {
 }
 
 const breakpoints = createBreakpoints({
-  sm: '42em',
-  md: '55em',
-  lg: '57.5em',
-  xlg: '62em'
+  sm: "42em",
+  md: "55em",
+  lg: "57.5em",
+  xlg: "62em"
 })
 
 const shadows = {
-  outline: '0 0 0 2px var(--chakra-colors-green-500)',
+  outline: "0 0 0 2px var(--chakra-colors-green-500)",
 };
 
 const overrides = {
