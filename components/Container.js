@@ -45,15 +45,15 @@ const Container = () => {
         <Project title='Bug Tracker - In progress' githubLink='https://www.google.com' demoLink='https://www.google.com'
           desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
           imagePath='' techArray={['REACT', 'NODE', 'TYPESCRIPT', 'EXPRESSS', 'MONGODB', 'CHAKRA', 'GOOGLE FIREBASE']} />
-        <Project title='Sorting Visualizer' githubLink='' demoLink=''
+        <Project title='Sorting Visualizer' githubLink='https://github.com/kushaldevv/Sorting-Visualizer' demoLink=''
           desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
           imagePath='' techArray={['REACT', 'GOOGLE FIREBASE']}
         />
-        <Project title='Netflix Clone' githubLink='' demoLink=''
+        <Project title='Netflix Clone' githubLink='https://github.com/kushaldevv/netflixClone' demoLink='https://netflix-kushal.web.app/'
           desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-          imagePath='' techArray={['REACT', 'GOOGLE FIREBASE']}
+          imagePath='./images/flixClone.png' techArray={['REACT', 'GOOGLE FIREBASE']}
         />
-        <Project title='Portfolio Page' githubLink='' demoLink=''
+        <Project title='Portfolio Page' githubLink='https://github.com/kushaldevv/Portfolio' demoLink=''
           desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
           imagePath='./images/port2.png' techArray={['NEXTJS', 'CHAKRA', 'STYLED COMPONENTS', 'GITHUB PAGES']}
         />
