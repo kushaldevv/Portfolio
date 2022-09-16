@@ -37,20 +37,21 @@ const Container = () => {
       <span className="anchor" id="projects"></span>
       <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;Container id = &apos;projects&apos;&gt;</Text>
       <VStack my="5vh" ml={["10px", "40px"]} divider={<StackDivider borderColor="green.500" />} spacing={"1vh"} align="stretch">
-        <Project title="Bug Tracker - In progress" githubLink="https://www.google.com" demoLink="https://www.google.com"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          imagePath="" techArray={["REACT", "NODE", "TYPESCRIPT", "EXPRESSS", "MONGODB", "CHAKRA", "GOOGLE FIREBASE"]} />
-        <Project title="Sorting Visualizer" githubLink="https://github.com/kushaldevv/Sorting-Visualizer" demoLink=""
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          imagePath="" techArray={["REACT", "GOOGLE FIREBASE"]}
+        <Project title="Sorting Visualizer" githubLink="https://github.com/kushaldevv/Sorting-Visualizer" demoLink="https://sorting-algorithms-viz.web.app/"
+          desc="A visualiation tool for common sorting algorithms. I built this to aid me and some peers for technical interviews."
+          imagePath="./images/sort1.png" techArray={["REACT", "GOOGLE FIREBASE"]}
         />
-        <Project title="Netflix Clone" githubLink="https://github.com/kushaldevv/netflixClone" demoLink="https://netflix-kushal.web.app/"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          imagePath="./images/flixClone.png" techArray={["REACT", "GOOGLE FIREBASE"]}
+        <Project title="DevTaxes Website" githubLink="https://github.com/kushaldevv/devTaxes" demoLink="https://www.devtaxes.com"
+          desc="Website for a company I worked for. I learned chakra ui and next js while doing this project."
+          imagePath="./images/devtaxes.png" techArray={["NEXT.JS", "CHAKRA UI", "GOOGLE FIREBASE"]}
+        />
+        <Project title="TipOff Discord Bot" githubLink="https://github.com/kushaldevv/tipOff" demoLink="https://tipoff-8f836.web.app/index.html"
+          desc="Discord bot that gives real time NBA statistics using the offical public APIs from NBA."
+          imagePath="./images/tipoff.png" techArray={["PYTHON","MONGODB", "HEROKU","GOOGLE FIREBASE", "HTML", "CSS"]}
         />
         <Project title="Portfolio Page" githubLink="https://github.com/kushaldevv/Portfolio" demoLink=""
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          imagePath="./images/port2.png" techArray={["NEXTJS", "CHAKRA", "STYLED COMPONENTS", "GITHUB PAGES"]}
+          desc="Fun little page created over the weekend to showcase my frontend skills."
+          imagePath="./images/port2.png" techArray={["NEXTJS", "CHAKRA", "STYLED COMPONENTS", "VERCEL"]}
         />
       </VStack>
       <Text fontWeight={"bold"} fontSize={["4xl", "5xl", "5xl", "5xl"]} display={"inline"} color={textColor}> &lt;/Container&gt;</Text>

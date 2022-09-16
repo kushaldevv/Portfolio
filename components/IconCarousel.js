@@ -30,10 +30,10 @@ function IconCarousel() {
           <Image src="/logos/java.svg" width="150px" alt = "iconImage" height="150px" />
           <Text color={useColorModeValue("black", "white")}>Java</Text>
         </Box>
-        <Box className="slide">
+        {/* <Box className="slide">
           <Image src="/logos/type.svg" width="150px" alt = "iconImage" height="150px" />
           <Text color={useColorModeValue("black", "white")}>Type- <br></br>Script</Text>
-        </Box>
+        </Box> */}
         <Box className="slide">
           <Image src="/logos/mongodb.png" width="150px" alt = "iconImage" height="150px" />
           <Text color={useColorModeValue("black", "white")}>MongoDB</Text>
@@ -70,10 +70,10 @@ function IconCarousel() {
           <Image src="/logos/java.svg" width="150px" alt = "iconImage" height="150px" />
           <Text color={useColorModeValue("black", "white")}>Java</Text>
         </Box>
-        <Box className="slide">
+        {/* <Box className="slide">
           <Image src="/logos/type.svg" width="150px" alt = "iconImage" height="150px" />
           <Text color={useColorModeValue("black", "white")}>Type- <br></br>Script</Text>
-        </Box>
+        </Box> */}
         <Box className="slide">
           <Image src="/logos/mongodb.png" width="150px" alt = "iconImage" height="150px" />
           <Text color={useColorModeValue("black", "white")}>MongoDB</Text>

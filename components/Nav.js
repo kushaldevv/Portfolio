@@ -28,7 +28,7 @@ function Nav() {
         <NextLink href="#tools" passHref>
           <Button as="a" variant="ghost" fontSize="md" _hover={{ color: textColor }} >tools()</Button>
         </NextLink>
-        <NextLink href="#resume" passHref>
+        <NextLink href="https://docs.google.com/document/d/1l1JtDsitXgRBq0Rk5C3lHFSFg5untfVy5N0GmCuZzHs/edit?usp=sharing" passHref>
           <Button as="a" variant="ghost" fontSize="md" _hover={{ color: textColor }} >resume()</Button>
         </NextLink>
         <NextLink href="#contact" passHref>
