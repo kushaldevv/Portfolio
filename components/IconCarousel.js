@@ -4,7 +4,10 @@ import Image from "next/image"
 
 function IconCarousel() {
   return (
-    <Box className="slider">
+    <Box className="slider" 
+    _before={useColorModeValue({background :'linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%)'}, {background :'linear-gradient(to left, rgba(26, 32, 44, 0) 0%, rgba(26, 32, 44, 1) 100%)'})} 
+    _after={useColorModeValue({background :'linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%)'}, {background :'linear-gradient(to left, rgba(26, 32, 44, 0) 0%, rgba(26, 32, 44, 1) 100%)'})} 
+    >
       <Box className="slide-track">
         <Box className="slide">
           <Image src="/logos/react.svg" width="150px" alt = "iconImage" height="150px" />
