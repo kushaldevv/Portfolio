@@ -13,7 +13,7 @@ function Contact() {
       from_name: e.target[0].value,
       message: e.target[2].value,
       reply_to: e.target[1].value,
-    }, "Y1TM61yQUzTHrSySD")
+    }, "")
     .then(() => {
       setLoading("");
       setButtonText("Sent!");
